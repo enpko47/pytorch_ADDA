@@ -20,7 +20,7 @@ python main.py
 
 ## Result
 
-### MNIST &rightarrow; USPS
+`MNIST → USPS`
 |           |    Source only   |       ADDA       |
 | --------- | ---------------- | ---------------- |
 |   Paper   | 0.752 &pm; 0.016 | 0.894 &pm; 0.002 |
