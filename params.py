@@ -21,3 +21,10 @@ save_step_adapt = 100
 
 # Parameters for GPU
 gpu_num = 0
+
+# Parameters for saving images
+img_root = 'img'
+img_final = 'mnist_usps'
+img_input = 'mnist_usps_input'
+img_src_only = 'mnist_usps_src_only'
+img_adda = 'mnist_usps_adda'
