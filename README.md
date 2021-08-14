@@ -26,6 +26,9 @@ python main.py
 |   Paper   | 0.752 &pm; 0.016 | 0.894 &pm; 0.002 |
 | This repo | 0.750 &pm; 0.007 | 0.937 &pm; 0.006 |
 
+### Data Distribution
+![mnist_usps](https://user-images.githubusercontent.com/87518376/129457000-df28346e-ca5a-4ae5-a697-e8907a3f5008.png)
+
 
 ## Reference
 
