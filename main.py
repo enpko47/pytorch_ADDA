@@ -82,6 +82,7 @@ if __name__ == '__main__':
         os.remove(os.path.join(params.img_root, '{}.png'.format(file_name)))
 
     plt.subplots_adjust(hspace=0, wspace=0)
+    plt.tight_layout()
     plt.savefig(os.path.join(params.img_root, '{}.png'.format(params.img_final)))
 
 

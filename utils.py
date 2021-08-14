@@ -72,7 +72,7 @@ def save_plot(X, y, d, mode, file_name):
     """ Save data distribution plot """
 
     # Set plot size
-    plt.figure(figsize=(10, 10))
+    plt.figure(figsize=(7, 7))
 
     for i in range(len(d)):
         # Get domain color
@@ -130,7 +130,7 @@ def visualize_input(src_loader, tgt_loader, file_name):
         list_tgt_images = torch.cat([list_tgt_images, images], 0)
         list_tgt_labels = torch.cat([list_tgt_labels, labels], 0)
     
-    list_tgt_domain = torch.ones(list_tgt_images.shape[0])
+    list_tgt_domain = torch.zeros(list_tgt_images.shape[0])
     list_tgt_images = list_tgt_images.view(list_tgt_images.shape[0], -1)
 
     # Concatenate source and target data
