@@ -24,10 +24,13 @@ python main.py
 |           |    Source only   |       ADDA       |
 | --------- | ---------------- | ---------------- |
 |   Paper   | 0.752 &pm; 0.016 | 0.894 &pm; 0.002 |
-| This repo | 0.750 &pm; 0.007 | 0.937 &pm; 0.006 |
+| This repo | 0.749 &pm; 0.017 | 0.934 &pm; 0.003 |
 
-### Data Distribution
-![mnist_usps](https://user-images.githubusercontent.com/87518376/129457000-df28346e-ca5a-4ae5-a697-e8907a3f5008.png)
+
+## Data Distribution
+
+`MNIST → USPS`
+![mnist_usps](https://user-images.githubusercontent.com/87518376/129594692-8a66fb40-b0eb-41ef-b0ed-b2da53c8a59d.png)
 
 
 ## Reference

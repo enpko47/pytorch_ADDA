@@ -5,7 +5,7 @@ image_size = 28
 
 # Parameters for optimizing models
 lr_src_enc = 0.0001
-lr_tgt_enc = 0.0005
+lr_tgt_enc = 0.00005
 lr_dis = 0.001
 beta1 = 0.5
 beta2 = 0.9
